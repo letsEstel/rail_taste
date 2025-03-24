@@ -1,0 +1,10 @@
+<h1>Supercars</h1>
+
+<div id="supercars">
+  <% debug @supercars%>
+  <% @supercars.each do |product| %>
+    <div>
+      <%= product.name %>
+    </div>
+  <% end %>
+</div>
