@@ -1,0 +1,12 @@
+<h1>New Supercar!</h1>
+
+<%= form_with model: @supercar, url: supercars_path do |form| %>
+    <div>
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+    </div>
+
+    <div>
+        <%= form.submit %>
+    </div>
+<% end %>
